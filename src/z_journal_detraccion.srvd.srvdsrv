@@ -1,0 +1,4 @@
+@EndUserText.label: 'Servico para detraccion'
+define service Z_JOURNAL_DETRACCION {
+  expose Z_JOURNAL_DETRACCION;
+}

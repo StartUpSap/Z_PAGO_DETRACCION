@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Pago Detraccion'
+define service Z_DAT_PAG_DETRA {
+  expose Z_DAT_PAG_DETRA;
+  expose ZI_VH_DET_GLACCOUNT as I_DetGlAccount;
+}

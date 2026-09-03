@@ -1,0 +1,4 @@
+@EndUserText.label: 'Serivico Reporte Detraccion'
+define service Z_REPO_DETRAC {
+  expose Z_REPO_DETRAC;
+}

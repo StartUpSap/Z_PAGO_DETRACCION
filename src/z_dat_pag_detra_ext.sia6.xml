@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>Z_DAT_PAG_DETRA_EXT</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>IAM Pago Detracciones</DESCRIPTION>
+     <RESPONSIBLE>CB9980000014</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>E34</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>Z_PAGO_DETRACCION</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>Z_DAT_PAG_DETRA_EXT</APP_ID>
+    <APP_TYPE>EXT</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <SERVICE>
+     <item>
+      <REL_NAME>Z_DAT_PAG_DETRA                    0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>Z_DAT_PAG_DETRA_EXT</APP_ID>
+      <SRVC_NAME>8FFB53A5C36757ECAAA750C5911FE6</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>Z_JOURNAL_DETRACCION2              0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>Z_DAT_PAG_DETRA_EXT</APP_ID>
+      <SRVC_NAME>BD076B54B8A2504DBA1F1EAD348CC2</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>Z_REPO_DETRAC                      0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>Z_DAT_PAG_DETRA_EXT</APP_ID>
+      <SRVC_NAME>6815E6172CA5C4944E49A85E792E1E</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Z_REPO_DETRAC</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+    </SERVICE>
+    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>
